@@ -1,11 +1,15 @@
 @import "footer";
+@import "sections";
+@import "sidebar";
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1990px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1990px;
 }
+
