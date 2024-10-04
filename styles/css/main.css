@@ -1,0 +1,41 @@
+footer {
+  background-color: rgb(11, 29, 38);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer .title-one {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  color: white;
+}
+footer .title-one span {
+  color: gray;
+}
+footer .title-two {
+  display: flex;
+  gap: 5vw;
+}
+footer .title-two .more-on {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+footer .title-two .more-on h2 {
+  color: rgb(251, 215, 132);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1990px;
+}/*# sourceMappingURL=main.css.map */

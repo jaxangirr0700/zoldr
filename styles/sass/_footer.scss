@@ -1,0 +1,30 @@
+footer {
+  background-color: rgba(11, 29, 38, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  .title-one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    color: white;
+    span {
+      color: gray;
+    }
+  }
+  .title-two {
+    display: flex;
+    gap: 5vw;
+
+    .more-on {
+      h2 {
+        color: rgba(251, 215, 132, 1);
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: white;
+    }
+  }
+}
